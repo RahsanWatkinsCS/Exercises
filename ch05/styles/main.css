@@ -11,13 +11,19 @@ html{
 h1{
     color:rebeccapurple;
     size:150%;
-   
+   padding-bottom:2em;
 }
 h2{
     size:125%;
+    padding-bottom:1em;
 }
 h3{
     size:115%;
+}
+img{
+    float:left;
+    padding-left:2px;
+    padding-bottom:2px;
 }
 
 main{
@@ -36,6 +42,7 @@ body {
 footer{
     border-top: 2px solid;
     border-color:rebeccapurple;
+    text-align:center;
 }
 
 cite{
