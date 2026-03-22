@@ -37,4 +37,10 @@ footer{
     border-color:rebeccapurple;
 }
 
+cite{
+    .no-italics{
+        font-weight:bold;
+        color:rebeccapurple;
+    }
+}
 
