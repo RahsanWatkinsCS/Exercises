@@ -11,6 +11,7 @@ html{
 h1{
     color:rebeccapurple;
     size:150%;
+   
 }
 h2{
     size:125%;
@@ -20,14 +21,13 @@ h3{
 }
 
 main{
-    padding: 15px;
+    padding-left: 2em;
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 90%;
-    text-align: left 2em;
     margin:2em auto;
     border-style:double;
     border-color:rebeccapurple;
