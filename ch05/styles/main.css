@@ -19,7 +19,7 @@ h2{
     padding-bottom:.5em;
 }
 h3{
-    size:115%;
+    size:150%;
 }
 img{
     float:left;
@@ -37,6 +37,7 @@ body {
     font-size: 100%;
     width: 90%;
     margin:2em auto;
+    
     border-style:double;
     border-color:rebeccapurple;
 
@@ -54,8 +55,8 @@ footer{
 }
 
 cite{
-   
         font-weight:bold;
+        font-size:150%;
         color:rebeccapurple; 
         
     
