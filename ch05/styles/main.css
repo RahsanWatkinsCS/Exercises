@@ -26,6 +26,9 @@ img{
     padding-left:2px;
     padding-bottom:2px;
 }
+cite{
+    color:rebeccapurple;
+}
 
 main{
     padding-left: 2em;
