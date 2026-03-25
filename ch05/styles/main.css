@@ -12,11 +12,11 @@ h1{
     color:rebeccapurple;
     size:150%;
    padding-top:1em;
-   padding-bottom:2em
+   padding-bottom:1em
 }
 h2{
     size:125%;
-    padding-bottom:2em;
+    padding-bottom:.5em;
 }
 h3{
     size:115%;
@@ -39,10 +39,12 @@ body {
     border-style:double;
     border-color:rebeccapurple;
 
-    p{
+    
+}
+
+p{
         padding-left: 2em;
     }
-}
 
 footer{
     border-top: 2px solid;
