@@ -23,9 +23,9 @@ h3{
 }
 img{
     float:left;
-    padding-left:2px;
-    padding-bottom:2px;
-    padding-right: 2px;
+    padding-left:2em;
+    padding-bottom:2em;
+    padding-right: 2em;
 }
 
 main{
@@ -44,12 +44,16 @@ body {
     
 }
 
+ul{
+    padding-bottom: 2em;
+}
+
 p{
         padding-left: 2em;
     }
 
 footer{
-    border-top: 2px solid;
+    border-top: 2em solid;
     border-color:rebeccapurple;
     text-align:center;
 }
