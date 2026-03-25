@@ -12,25 +12,29 @@ h1{
     color:rebeccapurple;
     size:150%;
    padding-top:1em;
-   padding-bottom:1em
+   padding-bottom:1em;
+    padding-left: 2em;
 }
 h2{
     size:125%;
     padding-bottom:.5em;
+     padding-left: 2em;
 }
 h3{
     size:115%;
+     padding-left: 2em;
+}
+
+p{
+    padding-left: 2em;
+    padding-bottom:1em;
 }
 
 img{
     float:left;
-    padding-left:.5em;
+    padding-left:2em;
     padding-bottom:2em;
     padding-right: .5em;
-}
-
-main{
-
 }
 
 body {
@@ -41,12 +45,12 @@ body {
     padding-right: .5em;
     border-style:double;
     border-color:rebeccapurple;
-    border-
     
 }
 
 ul{
     padding-bottom: 2em;
+    padding-left: 2em;
 }
 
 
@@ -61,6 +65,7 @@ cite{
         font-weight:bold;
         font-size:150%;
         color:rebeccapurple; 
+         padding-left: 2em;
         
     
 }
