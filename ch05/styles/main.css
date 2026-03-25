@@ -11,7 +11,8 @@ html{
 h1{
     color:rebeccapurple;
     size:150%;
-   padding-top:2em;
+   padding-top:1em;
+   padding-bottom:2em
 }
 h2{
     size:125%;
@@ -37,6 +38,10 @@ body {
     margin:2em auto;
     border-style:double;
     border-color:rebeccapurple;
+
+    p{
+        padding-left: 2em;
+    }
 }
 
 footer{
