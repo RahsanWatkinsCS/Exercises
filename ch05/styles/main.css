@@ -21,11 +21,12 @@ h2{
 h3{
     size:150%;
 }
+
 img{
     float:left;
-    padding-left:2em;
+    padding-left:.5em;
     padding-bottom:2em;
-    padding-right: 2em;
+    padding-right: .5em;
 }
 
 main{
@@ -37,7 +38,7 @@ body {
     font-size: 100%;
     width: 90%;
     margin:2em auto;
-    
+    padding-right: .5em;
     border-style:double;
     border-color:rebeccapurple;
 
@@ -53,7 +54,7 @@ p{
     }
 
 footer{
-    border-top: 2em solid;
+    border-top: .25em solid;
     border-color:rebeccapurple;
     text-align:center;
 }
