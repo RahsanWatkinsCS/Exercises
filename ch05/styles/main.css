@@ -19,7 +19,7 @@ h2{
     padding-bottom:.5em;
 }
 h3{
-    size:150%;
+    size:115%;
 }
 
 img{
@@ -30,7 +30,7 @@ img{
 }
 
 main{
-    padding-left: 2em;
+
 }
 
 body {
@@ -41,7 +41,7 @@ body {
     padding-right: .5em;
     border-style:double;
     border-color:rebeccapurple;
-
+    border-
     
 }
 
@@ -49,10 +49,7 @@ ul{
     padding-bottom: 2em;
 }
 
-p{
-        padding-left: 2em;
-        padding-bottom: 1em;
-    }
+
 
 footer{
     border-top: .25em solid;
