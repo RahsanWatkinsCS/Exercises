@@ -27,7 +27,7 @@ h3{
 }
 
 p{
-    padding-left: 1.5em;
+    padding-left: 2em;
     padding-bottom:1em;
 }
 
@@ -52,7 +52,7 @@ body {
 
 ul{
     padding-bottom: 2em;
-    padding-left: 1em;
+    padding-left: 2em;
 }
 
 
@@ -65,10 +65,7 @@ footer{
 cite{
         font-weight:bold;
         font-size:150%;
-        color:rebeccapurple; 
-        padding-left: 1em;
-        
-    
+        color:rebeccapurple;     
 }
 
 
