@@ -72,8 +72,11 @@ footer{
 }
 
 cite{
-		
-		font-syle:normal !important;
+		i{
+		font-style: normal;
+		}
+	
+		font-syle: normal !important;
 		
 	
         font-weight: bold;
