@@ -25,28 +25,27 @@ h1{
     color:rebeccapurple;
     size:150%;
    padding-top:1em;
-   padding-bottom:1em;
-  /* padding-left: .7em; */
+   padding-bottom:1em
 
 }
 h2{
     size:125%;
     padding-bottom:.5em;
-    /* padding-left: 1em; */
+    
 }
 h3{
     size:115%;
-    /* padding-left: 1em; */
+    
 }
 
 p{
-    /*padding-left: 2em;*/
+    
     padding-bottom:1em;
 }
 
 img{
     float:left;
-  /*  padding-left:1.3em; */
+  
     padding-bottom:.5em;
     padding-right: .5em;
 }
@@ -55,7 +54,7 @@ img{
 
 ul{
     padding-bottom: 2em;
-  /*  padding-left: 2em;*/
+    padding-left: .5em;
 }
 
 
