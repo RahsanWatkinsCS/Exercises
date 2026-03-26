@@ -59,15 +59,14 @@ ul{
 
 footer{
     text-align:center;
-    border-top: solid;
-     border-color:rebeccapurple;
+    border-top:rebeccapurple;
 }
 
 cite{
         font-weight:bold;
         font-size:150%;
         color:rebeccapurple; 
-        padding-left: 2em;
+        padding-left: 1em;
         
     
 }
