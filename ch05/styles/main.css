@@ -25,6 +25,8 @@ padding-right: 2em;
 padding-left:2em;
 }
 
+
+
 h1{
     color:rebeccapurple;
     size:150%;
@@ -48,6 +50,13 @@ p{
     padding-bottom:1em;
 }
 
+cite{
+		font-syle: normal !important;
+        font-weight: bold;
+        font-size: 150%;
+        color:rebeccapurple;     
+}
+
 img{
     float:left;
   	padding-top: .5em;
@@ -69,17 +78,6 @@ footer{
 	font-weight: bold;
     border-top: solid;
     border-color:rebeccapurple;
-}
-
-cite{
-		
-	
-		font-syle: italic !important;
-		
-	
-        font-weight: bold;
-        font-size: 150%;
-        color:rebeccapurple;     
 }
 
 
