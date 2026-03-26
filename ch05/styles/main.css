@@ -71,13 +71,10 @@ footer{
     border-color:rebeccapurple;
 }
 
-i{
-		font-style: normal;
-		}
 cite{
 		
 	
-		font-syle: normal !important;
+		font-syle: italic !important;
 		
 	
         font-weight: bold;
