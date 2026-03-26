@@ -65,6 +65,7 @@ ul{
 
 footer{
     text-align:center;
+	font-weight: bold;
     border-top: solid;
     border-color:rebeccapurple;
 }
