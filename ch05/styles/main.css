@@ -46,16 +46,15 @@ h3{
 }
 
 p{
-    
     padding-bottom:1em;
-}
-
-cite{
+	cite{
 		font-syle: normal !important;
         font-weight: bold;
         font-size: 150%;
         color:rebeccapurple;     
+	}
 }
+
 
 img{
     float:left;
