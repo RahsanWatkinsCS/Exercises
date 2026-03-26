@@ -13,12 +13,16 @@ body {
     font-size: 100%;
     width: 90%;
     margin:2em auto;
-    padding-right: .5em;
+    
     border-style:double;
     border-width: 3px;
     border-color:rebeccapurple;
     background-color: white;
-	padding-left:2em;
+	
+}
+main{
+padding-right: 2em;
+padding-left:2em;
 }
 
 h1{
@@ -66,6 +70,10 @@ footer{
 }
 
 cite{
+		.no-italics{
+		font-syle:normal;
+		}
+	
         font-weight:bold;
         font-size:150%;
         color:rebeccapurple;     
