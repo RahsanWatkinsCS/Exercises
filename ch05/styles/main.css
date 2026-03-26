@@ -29,15 +29,12 @@ h1{
     color:rebeccapurple;
     size:150%;
    padding-top:1em;
-   padding-bottom:1em
+   padding-bottom:1em;
 
 }
 h2{
-	#container{
-display:flex;
-align-items: end;
-	}
-    size:125%;
+	clear : left;
+    size : 125%;
     padding-bottom:.5em;
     
 }
@@ -75,9 +72,9 @@ footer{
 }
 
 cite{
-		.no-italics{
-		font-syle:normal;
-		}
+		
+		font-syle:normal !important;
+		
 	
         font-weight:bold;
         font-size:150%;
