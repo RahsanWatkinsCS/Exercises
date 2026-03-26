@@ -13,7 +13,7 @@ h1{
     size:150%;
    padding-top:1em;
    padding-bottom:1em;
-    padding-left: 2em;
+
 }
 h2{
     size:125%;
@@ -32,8 +32,8 @@ p{
 
 img{
     float:left;
-    padding-left:2em;
-    padding-bottom:2em;
+    padding-left:.5em;
+    padding-bottom:.5em;
     padding-right: .5em;
 }
 
