@@ -45,7 +45,7 @@ body {
     padding-right: .5em;
     border-style:double;
     border-color:rebeccapurple;
-    
+    background-color: white;
 }
 
 ul{
@@ -56,7 +56,6 @@ ul{
 
 
 footer{
-    border-top: .25em solid;
     border-color:rebeccapurple;
     text-align:center;
 }
