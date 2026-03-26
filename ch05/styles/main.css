@@ -45,7 +45,7 @@ p{
 
 img{
     float:left;
-  
+  	padding-top: .5em;
     padding-bottom:.5em;
     padding-right: .5em;
 }
