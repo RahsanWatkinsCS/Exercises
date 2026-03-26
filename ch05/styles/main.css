@@ -33,6 +33,10 @@ h1{
 
 }
 h2{
+	#container{
+display:flex;
+align-items: end;
+	}
     size:125%;
     padding-bottom:.5em;
     
