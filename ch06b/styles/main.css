@@ -64,6 +64,8 @@ main {
 
 /* the styles for the section */
 section {
+	float:left;
+		width:60%;
 	& h1 {
 		padding-top: .5em;
 	}
@@ -94,8 +96,17 @@ article {
 	}
 }
 
+#sidebarA{
+		float:left;
+	}
+
+#sidebarB{
+		float:right;
+	}
+
 /* the styles for the aside */
 aside {
+	width:20%;
 	& h2 {
 		color: var(--primary-color);
 	}
@@ -106,6 +117,7 @@ aside {
 
 /* the styles for the footer */
 footer {
+	clear:both;
 	background-color: var(--primary-color);
 	& p {
 		text-align: center;
