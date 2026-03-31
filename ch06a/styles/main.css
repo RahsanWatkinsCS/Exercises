@@ -69,7 +69,13 @@ section {
 article {
 	& img {
 		border: 1px solid var(--dark);
+		max-width: 100%;
+		height:auto;
+		float:left;
+		margin-right:.5em
 	}
+	float:right;
+	width:80%;
 }
 
 /* the styles for the aside */
@@ -80,10 +86,13 @@ aside {
 	& img {
 		margin-bottom: .9em;
 	}
+	float:left;
+	width: 20%;
 }
 
 /* the styles for the footer */
 footer {
+	clear:both;
 	background-color: var(--primary-color);
 	& p {
 		text-align: center;
