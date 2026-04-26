@@ -92,6 +92,37 @@ aside {
 	}
 }
 
+nav{
+	background-color: #931420;
+	
+	ul{
+		list-style-type: none;
+		a{
+		margin-bottom: -9px;
+		text-decoration:none;
+		color:#ffffff;
+		display:block;
+		padding: 10px 10px 10px 10px;
+	}
+	a:hover, a:focus{
+			color:#f6bb73;
+		}
+		
+}
+.current{
+	color:black;
+	background-color:#f6bb73;
+}
+	  .current:hover, .current:focus{
+		font-style:normal;
+			color:black;
+		
+	color:black;
+	background-color:#f6bb73;
+	}
+}
+
+
 /* the styles for the footer */
 footer {
 	background-color: var(--primary-color);
