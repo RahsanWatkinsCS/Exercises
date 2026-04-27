@@ -89,7 +89,7 @@ nav{
 	}
 	.menu li:has(.submenu){
 		position: relative;
-
+		flex-wrap:wrap;
 		&:hover > .submenu{
 			display:block;
 		}
@@ -100,7 +100,8 @@ nav{
 		display:none;
 		flex-wrap:wrap;
 		background-color:#931420;
-
+		width:280%;
+		
 		a{
 			padding:0px 20px 10px 16px;
 			color:white;
