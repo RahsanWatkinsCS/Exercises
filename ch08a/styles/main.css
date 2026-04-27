@@ -70,7 +70,7 @@ header {
 main {
 	clear: left;
 	display: flex;
-	flex-direction: column;
+	/*flex-direction: column*/
 }
 
 /* the styles for the section */
