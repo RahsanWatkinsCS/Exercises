@@ -56,18 +56,36 @@ header {
 }
 
 nav{
+	top:0;
+	margin:0;
+	a{
+		text-decoration:none;
+		color:white;
+
+	}
 	padding-top:10px;
 	position:sticky;
 	background-color: #931420;
 	ul{
 		color:white;
-		display: flex;
 		flex-wrap:wrap;
+		display: flex;
+		
 		list-style-type: none;
 		justify-content: space-evenly;
+
 	}
+
 	.current{
-		color:var(--accent-color);
+		a{
+			color:var(--accent-color);
+		}
+		a:hover, a:focus{
+			font-style:normal;
+		}
+
+		font-weight:bold;
+
 	}
 	.menu li:has(.submenu){
 		position: relative;
@@ -78,13 +96,16 @@ nav{
 	} 
 	.submenu{
 		position:absolute;
+		left:0;
 		display:none;
 		flex-wrap:wrap;
 		background-color:#931420;
+
 		a{
-			padding:0px 8px 10px 16px;
+			padding:0px 20px 10px 16px;
 			color:white;
 			display:flex;
+			flex-wrap:wrap;
 			text-decoration:none;
 		}
 	}
