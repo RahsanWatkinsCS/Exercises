@@ -55,6 +55,42 @@ header {
 	}
 }
 
+nav{
+	padding-top:10px;
+	position:sticky;
+	background-color: #931420;
+	ul{
+		color:white;
+		display: flex;
+		flex-wrap:wrap;
+		list-style-type: none;
+		justify-content: space-evenly;
+	}
+	.current{
+		color:var(--accent-color);
+	}
+	.menu li:has(.submenu){
+		position: relative;
+
+		&:hover > .submenu{
+			display:block;
+		}
+	} 
+	.submenu{
+		position:absolute;
+		display:none;
+		flex-wrap:wrap;
+		background-color:#931420;
+		a{
+			padding:0px 8px 10px 16px;
+			color:white;
+			display:flex;
+			text-decoration:none;
+		}
+	}
+
+}
+
 /* the styles for the main element */
 main {
 	clear: left;
