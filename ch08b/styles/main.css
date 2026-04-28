@@ -175,12 +175,14 @@ footer {
 @media only screen and (max-width: 620px){
 .menu{
 	display: none;
-}
+	}
 }
 /* wraps at 577px wide, home tv*/
 
 
-@media only screen and (min-width: 577px){
-
+@media only screen and (min-width: 768px){
+input{
+		display:none;
+	}
 }
 
