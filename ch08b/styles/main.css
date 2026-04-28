@@ -169,5 +169,18 @@ footer {
 		order: 1;
 		flex-basis: 25%;
 	}
+	
+}
+
+@media only screen and (max-width: 620px){
+.menu{
+	display: none;
+}
+}
+/* wraps at 577px wide, home tv*/
+
+
+@media only screen and (min-width: 577px){
+
 }
 
