@@ -6,19 +6,7 @@
 	--light: white;
 	--dark: black;
 }
-@media only screen and (min-width:786px){
-	section{
-		order: 2;
-		flex-basis: 75%;
-	}
-	aside {
-		order: 1;
-		flex-basis: 25%;
-	}
-	main{
-		flex-direction:column;
-	}
-}
+
 /* reset */
 * {
 	margin: 0;
@@ -58,6 +46,7 @@ header {
 	& h3 {
 		font-size: 130%;
 		font-style: italic;
+		display:none;
 	}
 	& img {
 		float: left;
@@ -70,12 +59,12 @@ header {
 main {
 	clear: left;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 /* the styles for the section */
 section {
-	
+
 	& h1 {
 		color: var(--primary-color);
 		margin: 0;
@@ -94,7 +83,7 @@ article {
 
 /* the styles for the aside */
 aside {
-	
+
 	& h2 {
 		color: var(--primary-color);
 	}
@@ -137,5 +126,27 @@ nav {
 	}
 	& a.current:hover { 
 		font-style: normal; /* override default hover effect */
+	}
+}
+@media only screen and (min-width:768px){
+	main{
+		
+		flex-direction:row;
+	}
+		aside {
+		order: 1;
+		flex-basis: 25%;
+	}
+	section{
+		order: 2;
+		flex-basis: 75%;
+	}
+}
+
+@media only screen and (min-width:502px){
+header{
+		h3{
+			display:block;
+		}
 	}
 }
