@@ -59,7 +59,11 @@ header {
 main {
 	clear: left;
 	display: flex;
+	
 }
+
+
+	
 
 /* the styles for the section */
 section {
@@ -114,6 +118,9 @@ footer {
 
 /* the styles for the navigation menu */
 .navbar {
+	container-type:inline-size;
+	container-name:navbar;
+	
 	background-color: var(--primary-color);
 	& ul {
 		list-style-type: none;
@@ -132,10 +139,67 @@ footer {
 	& a.current:hover { 
 		font-style: normal; /* override hover effect */
 	}
+
+	.menu-btn{
+		display: block;
+		color:white;
+		padding:1em;
+	}
+	
+	.menu-btn::after{
+		content:"\2630";
+	}
+	
+	#checkbox-toggle-menu2:checked ~ .menu{
+		display:block;
+		position: absolute;
+		background-color: #931420;
+	}
+
+	#checkbox-toggle-menu1:checked ~ .menu{
+		display:block;
+		position: absolute;
+		background-color: #931420;
+	}
+	.menu li:has(.submenu){
+	
+		& small::after{
+			content: "\25b6"
+		}
+	}
+
+	input[type="checkbox"]{
+		display:none;
+	}
 }
 
 .menu {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	display:none;
+	
+}
+
+
+
+
+
+@container navbar (min-width: 560px){
+	.navbar{
+		.menu-btn{
+		display: none;
+		color:white;
+		padding:1em;
+	}
+	}
+	.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	}
+	
+	.menu-btn::after{
+		display:none;
+	}
 }
