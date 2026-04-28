@@ -199,7 +199,5 @@ footer {
 	justify-content: space-evenly;
 	}
 	
-	.menu-btn::after{
-		display:none;
-	}
+	
 }
