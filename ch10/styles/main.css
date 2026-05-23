@@ -93,6 +93,15 @@ article {
 		border: 1px solid var(--dark);
 		width: min(100%, 225px);
 	}
+	figure{
+		float:left;
+		& img{
+			float:bottom;
+		}
+		& figcaption{
+		float:top;
+		}
+	}
 }
 
 /* the styles for the aside */
