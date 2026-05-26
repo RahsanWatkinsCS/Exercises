@@ -171,9 +171,11 @@ footer {
 	input[type="checkbox"]{
 		display:none;
 	}
+	
 }
 
 .menu {
+	position:relative;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -193,7 +195,9 @@ footer {
 		padding:1em;
 	}
 	}
+	
 	.menu{
+		display:none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
