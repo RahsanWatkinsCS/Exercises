@@ -60,12 +60,16 @@ header {
 main {
 	clear: left;
 	display: flex;
+	& a{
+		color: color-mix(in hsl, #931420 35%, #f6bb73 65% ); 
+	}
 }
 
 /* the styles for the section */
 section {
 	flex-basis: 75%;
 	& h1 {
+		font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		padding-top: .5em;
 	}
 	& h2 {
