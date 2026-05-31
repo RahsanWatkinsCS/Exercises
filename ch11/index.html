@@ -14,6 +14,7 @@
 		table {
 			border-collapse: collapse;
 			border: 1px solid black;
+			width:60%;
 		}
 		thead {
 			background-color: lightgreen;
@@ -23,20 +24,89 @@
 			padding: .35em 1em .35em .5em;
 			text-align: left;
 			vertical-align: middle;
+			border-left:none;
 		}
-		tbody tr:nth-child(even) td {
-			background-color: lightgrey;
-		}
+		
         tbody td:last-child {
             text-align: right;
         }
+		tfoot td:last-child{
+			text-align: right;
+		}
+		tfoot{
+			background-color: lightgreen;
+			& td{
+				border:none;
+			}
+		}
+	
+		figure{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+
+	}
+		.left{
+			border-right:none;
+			font-weight: bold;
+			text-align: left;
+			vertical-align: top;
+		}
+
+		@media only screen and (max-width: 640px){
+			td:nth-child(3n +1 of :not(.left)){
+				background-color: lightgray;
+			}
+			td:last-child::before {
+				display: block;
+				content: "Years of Service:";
+				text-align: left;
+				position:absolute;
+			}
+			tfoot td:last-child::before {
+				display: none;
+	
+			}
+			tfoot td:last-child{
+				display:none
+			}
+			tfoot td:nth-child(3)::after{
+			
+				content:  ": 105";
+				text-align:right;
+			
+			}
+			tfoot td{
+				font-weight: bold;
+			}
+		
+		thead{
+			display: none;
+		}
+		table{
+			.left{
+				background-color: lightgreen;
+			}
+			th, td{
+			display:block;
+			}
+			
+		}
+		}
+	
+		
 	</style>
 </head>
 
 <body>
+	<figure>
+		<figcaption><h2>Employee Table</h2></figcaption>
 <table>
+	
 	<thead>
 		<tr>
+			<th class = "left">Department</th>
 			<th>Name</th>
 			<th>E-mail</th>
 			<th class="right">Years of Service</th>
@@ -44,21 +114,25 @@
 	</thead>
 	<tbody>
 		<tr>
+			<td rowspan = "3" class = "left">Editorial</td>
 			<td>Joel Murach</td>
 			<td>joelmurach@yahoo.com</td>
 			<td>22</td>
 		</tr>
 		<tr>
+			
 			<td>Anne Boehm</td>
 			<td>anne@murach.com</td>
 			<td>34</td>
 		</tr>
 		<tr>
+			
 			<td>Zak Ruvalcaba</td>
 			<td>zak@modulemedia.com</td>
 			<td>4</td>
 		</tr>
 		<tr>
+			<td rowspan = "2" class = "left">Marketing</td>
 			<td>Judy Taylor</td>
 			<td>judy@murach.com</td>
 			<td>39</td>
@@ -69,6 +143,7 @@
 			<td>10</td>
 		</tr>
 		<tr>
+			<td rowspan = "2" class = "left">Customer Service</td>
 			<td>Kelly Slivkoff</td>
 			<td>kelly@murach.com</td>
 			<td>25</td>
@@ -78,7 +153,18 @@
 			<td>juliette@murach.com</td>
 			<td>1</td>
 		</tr>
+		<tr>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>Total Years of Service</td>
+					<td>105</td>
+				</tr>
+			</tfoot>
+		</tr>
 	</tbody>
 </table>
+</figure>
 </body>
 </html>
