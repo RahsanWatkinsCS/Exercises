@@ -28,8 +28,45 @@ input, select, button {
     font-size: inherit;
     padding: .25em;
     margin-bottom: .5em;
+    margin-left:5px;
     border-radius: 5px;
+    width: 97%;
+}
+textarea{
+   margin-left:5px;
+    width:97%;
+    font-family: inherit;
+    font-size: inherit;
+    padding:.5em;
+    height:5em;
+}
+input :required{
+    border:2px solid red;
+}
+input:valid{
+    border:2px solid green;
+}
+button{
+    border-radius: 5px;
+    font-weight:bold;
+    width:8em;  
+}
+button:hover{
+    color:black;
+}
+.submit{
+    color:white;
+ background-color: forestgreen;   
+}
+.reset{
+    color:white;
+    background-color: red;
 }
 label {
     display: block;
+    margin-left:5px
+}
+fieldset{
+    border-color:lightgray;
+
 }

@@ -10,7 +10,50 @@
 <body>
 <h1>Please complete our survey</h1>
 <form action="confirmation.html" method="post">
+	<fieldset>
+		<legend>Contact Information</legend>
+		
+		<label for = "email">Email</label>
+		<input type = "email" id = "email" name = "email" autofocus required>
+		
+		<label for = "firstName">First Name</label>
+		<input type = "text" id = "firstName" name = "firstName" required>
+
+		<label for = "lastName"> Last Name</label>
+		<input type = "text" id = "lastName" name = "lastName" required>
+
+	</fieldset>
     
+	<fieldset>
+		<legend> Geographic Information</legend>
+		
+		<label for = "state">State</label>
+		<input type = "text" id = "state" name = "state" placeholder="Two characters"
+		pattern = "[a-zA-Z]{2}">
+
+		<label for = "zipcode">Zip Code</label>
+		<input type = "text" id = "zipcode" name = "zipcode" placeholder = "Five digits"
+		 pattern = "\d{5}([\-]\d{4})?" title = "must be a proper zipcode">
+	</fieldset>
+
+	<fieldset>
+		<legend>Source</legend>
+		<label for = "surveyDropdown">How did you hear about us?</label>
+		<select id ="surveyDropdown" name = "surveyDropdown">
+			<option> </option>
+			<option> Web search </option>
+			<option> Friends or family</option>
+			<option> Advertisement</option>
+			<option> Other</option>
+		</select>
+
+		<label for = "comments">Additional coments</label>
+		<textarea id = "comments" placeholder = "Add any Additional Comments Here"></textarea>
+	</fieldset>
+	<div>
+		<button type = "submit" class = "submit">Submit</button>
+		<button type = "reset" class = "reset">Reset</button>
+	</div>
 </form>
 </body>
 </html>
