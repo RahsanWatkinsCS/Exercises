@@ -22,6 +22,11 @@ body {
     margin: auto;
     border: 3px solid var(--primary-color);
 }
+video{
+	float:left;
+	padding:5px;
+	padding-right:10px;
+}
 header, section, aside, footer { padding: 1em; }
 h1, h2, h3, p, article { padding-bottom: .5em; }
 h1 { font-size: 150%; }
