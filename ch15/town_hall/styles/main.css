@@ -45,6 +45,17 @@ ul {
 	margin-left: 2em;
 }
 
+article{
+	& img{
+		transition: transform 2s;
+	}
+	& img:hover{
+		transform: rotateY(180deg);
+		transform-origin: right;
+		filter: invert(.80);
+	}
+}
+
 /* the styles for the header */
 header {
 	text-align: center;
@@ -84,6 +95,17 @@ main {
 
 /* the styles for the section */
 section {
+		.speaker img {
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+
+/* Step 9 & 10: Define keyframes with filters and transform */
+@keyframes pulse {
+  to {
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5)) brightness(125%);
+    transform: scale(1.1);
+  }
+}
 	padding-left: .5em;
 	border-bottom: 8px double var(--accent-color);
 	& img {
@@ -124,6 +146,7 @@ footer {
 	& p {
 		padding: .5em 0; 
 	}	
+
 }
 .large {
 	font-size: 125%;
